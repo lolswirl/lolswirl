@@ -1,5 +1,3 @@
-## hey there 👋
-
 ```c++
 struct Engineer {
     std::string title = "executive software engineer";
