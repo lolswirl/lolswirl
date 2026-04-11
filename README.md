@@ -1,17 +1,14 @@
-```c++
-struct Engineer {
-    std::string title = "executive software engineer";
-    std::string profession = "building scalable backend systems by day";
-    std::string passion = "hobbyist using math to solidify presented information";
-    std::string currentProject = "swirlui core";
-    std::vector<std::string> languages = {"*"};
-    std::vector<std::string> hobbies = {"ui design", "gaming", "festivals", "open source"};
-};
-
-int main() {
-    Engineer swirl;
-    std::cout << swirl.title << " who loves " << swirl.passion << std::endl;
-    std::cout << "current project: " << swirl.currentProject << std::endl;
-    return 1;
-}
+```cpp
+struct {
+    std::string profession = "exec software engineer";
+    std::string working_on = "wait, i'm ramping!";
+    
+    std::vector<std::string> interests = {
+        "ui",
+        "gaming",
+        "festivals",
+        "tech",
+        "cats"
+    };
+} me;
 ```
